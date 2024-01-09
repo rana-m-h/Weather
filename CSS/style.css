@@ -1,0 +1,24 @@
+.footer-icon{
+    width: 20px;
+}
+.item{
+    margin-top: 6rem;
+}
+#tomorrow{
+    padding: 4.70rem;
+}
+
+
+#text{
+    color: gold;
+}
+body{
+    background-image: url(..//img/london-large-image_07-29-202116-16-53.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
