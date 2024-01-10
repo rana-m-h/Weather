@@ -79,6 +79,6 @@ start()
 
 button.addEventListener("click" ,function(){
     start(search.value)
-    console.log("kj")
+
 })
 
