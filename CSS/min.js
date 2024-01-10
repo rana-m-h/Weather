@@ -1,6 +1,6 @@
 
 
-
+let button = document.getElementById('button')
 let todayName =document.getElementById('today-data-day-name')
 let number =document.getElementById('number')
 let month =document.getElementById('month')
@@ -77,6 +77,8 @@ async function start(city = "cairo"){
 start()
 
 
-search.addEventListener("input" ,function(){
+button.addEventListener("click" ,function(){
     start(search.value)
+    console.log("kj")
 })
+

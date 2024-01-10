@@ -22,3 +22,16 @@ body{
 
 }
 
+#button{
+position: absolute;
+top: 55px;
+right: 8%;
+padding: 8px 40px;
+border-radius: 50px;
+}
+
+#search{
+    position: relative;
+    border-radius: 50px;
+    
+}
