@@ -25,7 +25,7 @@ let nexttext = document.getElementsByClassName('next-text')
 async function getweathereData(cityName){
 
 
-    let weatherResponse  = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=a2f1c79a0d4a4ab4830212158240101&q=${cityName}&days=3&aqi=no&alerts=no`)
+    let weatherResponse  = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=a2f1c79a0d4a4ab4830212158240101&q=${cityName}&days=3&aqi=no&alerts=no`)
     let weathereData = await weatherResponse.json()
    
     return weathereData
